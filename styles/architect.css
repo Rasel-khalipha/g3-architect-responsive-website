@@ -9,6 +9,7 @@ body {
 
 .container {
 	width: 75%;
+	width: 1440px;
 	margin: 0 auto;
 }
 .btn {
@@ -99,4 +100,45 @@ body {
 /* Banner area end */
 
 /* Quick list area start */
+.main-area .quick-list-area {
+	padding-top: 85px;
+}
 
+.main-area .quick-list-area .quick-list-content {
+	max-width: 1310px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 73px;
+	margin: 0 auto;
+}
+.main-area .quick-list-area .quick-list-content .quick-list-image {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 24px;
+}
+.main-area .quick-list-area .quick-list-content .quick-list-text {
+	max-width: 537px;
+}
+.main-area .quick-list-area .quick-list-content .quick-list-text h2 {
+	font-size: 2.8125rem;
+	font-weight: 700;
+	color: #131313;
+	margin-bottom: 24px;
+}
+
+.main-area .quick-list-area .quick-list-content .quick-list-text .medium-text {
+	font-weight: 500;
+	color: #727272;
+}
+.main-area .quick-list-area .quick-list-content .quick-list-text .orange-text {
+	color: #ff900e;
+}
+
+.main-area .quick-list-area .quick-list-content .quick-list-text p {
+	font-size: 1rem;
+	line-height: 1.625;
+	color: #727272;
+	margin-bottom: 32px;
+}
